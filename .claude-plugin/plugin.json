@@ -1,0 +1,173 @@
+{
+  "name": "Developer Roadmap Plugin",
+  "version": "1.0.0",
+  "description": "Ultimate developer learning platform with 65+ tech roles, 9 specialized agents, and comprehensive skills. Master any tech career path with interactive roadmaps and curated learning resources.",
+  "author": "pluginagentmarketplace",
+  "license": "MIT",
+  "keywords": [
+    "developer-roadmap",
+    "learning",
+    "tech-careers",
+    "roadmaps",
+    "skill-development",
+    "education",
+    "ai-powered-learning"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pluginagentmarketplace/developer-roadmap-plugin"
+  },
+  "agents": [
+    {
+      "id": "web-frontend-agent",
+      "name": "Web & Frontend Development",
+      "file": "agents/01-web-frontend.md",
+      "capabilities": ["frontend-architecture", "javascript-frameworks", "responsive-design", "build-tools", "web-performance"]
+    },
+    {
+      "id": "backend-servers-agent",
+      "name": "Backend & Server Development",
+      "file": "agents/02-backend-servers.md",
+      "capabilities": ["backend-architecture", "api-design", "database-design", "authentication", "scalability"]
+    },
+    {
+      "id": "mobile-crossplatform-agent",
+      "name": "Mobile & Cross-Platform",
+      "file": "agents/03-mobile-crossplatform.md",
+      "capabilities": ["ios-development", "android-development", "cross-platform-apps", "native-apis", "app-performance"]
+    },
+    {
+      "id": "data-analytics-agent",
+      "name": "Data, Analytics & Engineering",
+      "file": "agents/04-data-analytics.md",
+      "capabilities": ["data-engineering", "big-data", "data-analytics", "etl-pipelines", "database-design"]
+    },
+    {
+      "id": "ai-ml-mlops-agent",
+      "name": "AI, Machine Learning & MLOps",
+      "file": "agents/05-ai-ml-mlops.md",
+      "capabilities": ["machine-learning", "deep-learning", "llm-integration", "nlp", "model-deployment"]
+    },
+    {
+      "id": "cloud-devops-infra-agent",
+      "name": "Cloud, DevOps & Infrastructure",
+      "file": "agents/06-cloud-devops-infra.md",
+      "capabilities": ["cloud-infrastructure", "containerization", "orchestration", "ci-cd", "infrastructure-as-code"]
+    },
+    {
+      "id": "security-architecture-agent",
+      "name": "Security & Architecture",
+      "file": "agents/07-security-architecture.md",
+      "capabilities": ["cybersecurity", "system-design", "api-security", "secure-coding", "architectural-patterns"]
+    },
+    {
+      "id": "specialized-tech-agent",
+      "name": "Specialized Technologies",
+      "file": "agents/08-specialized-tech.md",
+      "capabilities": ["blockchain-development", "smart-contracts", "game-development", "quantum-computing"]
+    },
+    {
+      "id": "management-design-agent",
+      "name": "Management, Design & Leadership",
+      "file": "agents/09-management-design.md",
+      "capabilities": ["product-management", "ux-design", "user-research", "product-strategy", "leadership"]
+    }
+  ],
+  "commands": [
+    {
+      "name": "learn",
+      "file": "commands/learn.md",
+      "description": "Start learning journey and choose a development path"
+    },
+    {
+      "name": "browse-role",
+      "file": "commands/browse-role.md",
+      "description": "Explore all available developer roles and roadmaps"
+    },
+    {
+      "name": "assess",
+      "file": "commands/assess.md",
+      "description": "Evaluate your knowledge and skills"
+    },
+    {
+      "name": "roadmap",
+      "file": "commands/roadmap.md",
+      "description": "Get detailed roadmap for a specific role"
+    }
+  ],
+  "skills": [
+    {
+      "name": "programming-languages",
+      "file": "skills/languages/SKILL.md",
+      "description": "Master programming languages across all domains"
+    },
+    {
+      "name": "frameworks-libraries",
+      "file": "skills/frameworks-libraries/SKILL.md",
+      "description": "Modern frameworks and libraries for development"
+    },
+    {
+      "name": "database-technologies",
+      "file": "skills/databases/SKILL.md",
+      "description": "SQL and NoSQL databases, data storage solutions"
+    },
+    {
+      "name": "cloud-platforms",
+      "file": "skills/cloud-platforms/SKILL.md",
+      "description": "AWS, GCP, Azure, and cloud-native development"
+    },
+    {
+      "name": "machine-learning",
+      "file": "skills/machine-learning/SKILL.md",
+      "description": "ML, deep learning, LLMs, and AI technologies"
+    },
+    {
+      "name": "devops-tools",
+      "file": "skills/devops-tools/SKILL.md",
+      "description": "Docker, Kubernetes, CI/CD, and DevOps practices"
+    },
+    {
+      "name": "testing-quality",
+      "file": "skills/testing-quality/SKILL.md",
+      "description": "Testing strategies, QA, and quality assurance"
+    },
+    {
+      "name": "api-design",
+      "file": "skills/api-design/SKILL.md",
+      "description": "REST, GraphQL, gRPC APIs, and API security"
+    },
+    {
+      "name": "security-practices",
+      "file": "skills/security-practices/SKILL.md",
+      "description": "Security, compliance, cryptography, and best practices"
+    },
+    {
+      "name": "design-ux",
+      "file": "skills/design-ux/SKILL.md",
+      "description": "UX/UI design, user research, and design systems"
+    }
+  ],
+  "hooks": {
+    "file": "hooks/hooks.json"
+  },
+  "metadata": {
+    "roles": "65+",
+    "learning_paths": "9 specialized agents",
+    "skills": "10 skill domains",
+    "commands": "4 slash commands",
+    "content_hours": "1000+",
+    "updated": "2025",
+    "language": "en"
+  },
+  "minimumClaudeVersion": "3.5",
+  "features": [
+    "Interactive roadmaps for 65+ tech roles",
+    "9 specialized AI agents for different domains",
+    "10 comprehensive skill modules",
+    "Real-world project examples",
+    "Progress tracking and assessment",
+    "Integration with developer tools",
+    "Best practices and patterns",
+    "Modern tech stack (2025)"
+  ]
+}

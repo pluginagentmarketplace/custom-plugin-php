@@ -1,0 +1,144 @@
+{
+  "hooks": [
+    {
+      "event": "user-starts-learning",
+      "description": "Track when user begins a learning path",
+      "action": "log-progress",
+      "enabled": true,
+      "handlers": [
+        {
+          "type": "progress-tracker",
+          "config": {
+            "track": ["start_time", "chosen_role", "initial_level"]
+          }
+        }
+      ]
+    },
+    {
+      "event": "skill-completed",
+      "description": "Record when a skill is mastered",
+      "action": "update-profile",
+      "enabled": true,
+      "handlers": [
+        {
+          "type": "badge-system",
+          "config": {
+            "award": "skill_badge",
+            "update_portfolio": true
+          }
+        }
+      ]
+    },
+    {
+      "event": "milestone-reached",
+      "description": "Celebrate learning milestones",
+      "action": "send-notification",
+      "enabled": true,
+      "handlers": [
+        {
+          "type": "celebration",
+          "config": {
+            "show_achievement": true,
+            "recommend_next": true
+          }
+        }
+      ]
+    },
+    {
+      "event": "assessment-completed",
+      "description": "Process assessment results and provide feedback",
+      "action": "analyze-results",
+      "enabled": true,
+      "handlers": [
+        {
+          "type": "results-analyzer",
+          "config": {
+            "generate_report": true,
+            "identify_gaps": true,
+            "recommend_resources": true
+          }
+        }
+      ]
+    },
+    {
+      "event": "knowledge-gap-detected",
+      "description": "Alert when learning gap is detected",
+      "action": "recommend-resources",
+      "enabled": true,
+      "handlers": [
+        {
+          "type": "smart-recommender",
+          "config": {
+            "suggest_topics": true,
+            "find_free_resources": true,
+            "adjust_pace": true
+          }
+        }
+      ]
+    },
+    {
+      "event": "project-completed",
+      "description": "Record project completion and learnings",
+      "action": "validate-project",
+      "enabled": true,
+      "handlers": [
+        {
+          "type": "project-validator",
+          "config": {
+            "check_requirements": true,
+            "provide_feedback": true,
+            "add_to_portfolio": true
+          }
+        }
+      ]
+    },
+    {
+      "event": "learning-streak",
+      "description": "Maintain and track learning consistency",
+      "action": "motivate-learner",
+      "enabled": true,
+      "handlers": [
+        {
+          "type": "streak-tracker",
+          "config": {
+            "days_required": 7,
+            "reward_system": true,
+            "remind_on_gap": true
+          }
+        }
+      ]
+    },
+    {
+      "event": "roadmap-selection",
+      "description": "Track roadmap choices for analytics",
+      "action": "log-choice",
+      "enabled": true,
+      "handlers": [
+        {
+          "type": "analytics-tracker",
+          "config": {
+            "track_popular_paths": true,
+            "save_user_journey": true
+          }
+        }
+      ]
+    }
+  ],
+  "automation": {
+    "auto-progress-save": true,
+    "auto-backup-interval": "daily",
+    "notification-settings": {
+      "achievements": true,
+      "milestones": true,
+      "reminders": true,
+      "recommendations": true
+    }
+  },
+  "analytics": {
+    "enabled": true,
+    "track-engagement": true,
+    "track-progress": true,
+    "track-completion-rates": true,
+    "export-reports": true
+  }
+}
