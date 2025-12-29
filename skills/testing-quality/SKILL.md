@@ -1,6 +1,9 @@
 ---
 name: testing-quality
 description: Master testing strategies and quality assurance. Covers unit testing, integration testing, E2E testing, automation frameworks, and testing best practices.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-frontend
+bond_type: PRIMARY_BOND
 ---
 
 # Testing & Quality Assurance Skill

@@ -1,6 +1,9 @@
 ---
 name: devops-tools
 description: Master DevOps tools and practices. Covers Docker, Kubernetes, CI/CD, Infrastructure as Code, Terraform, Ansible, monitoring, and automation.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-frontend
+bond_type: PRIMARY_BOND
 ---
 
 # DevOps Tools & Practices Skill

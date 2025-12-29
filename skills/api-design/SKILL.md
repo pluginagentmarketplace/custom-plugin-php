@@ -1,6 +1,9 @@
 ---
 name: api-design
 description: Master API design and development. Covers REST, GraphQL, gRPC, API security, versioning, documentation, and best practices.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-frontend
+bond_type: PRIMARY_BOND
 ---
 
 # API Design Skill

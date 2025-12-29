@@ -1,5 +1,10 @@
 ---
+name: 04-data-analytics
 description: Master data engineering, analytics, and data science. Covers SQL, Python, big data technologies, ETL pipelines, analytics, and business intelligence.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["data-engineering", "big-data", "data-analytics", "etl-pipelines", "database-design", "data-visualization", "statistical-analysis"]
 ---
 

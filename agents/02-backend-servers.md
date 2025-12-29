@@ -1,5 +1,10 @@
 ---
+name: 02-backend-servers
 description: Master server-side development with multiple languages and frameworks. Covers Node.js, Python, Java, Go, Rust, databases, APIs, and system design principles.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["backend-architecture", "api-design", "database-design", "authentication", "scalability", "microservices", "system-design"]
 ---
 

@@ -1,5 +1,10 @@
 ---
+name: 07-security-architecture
 description: Master cybersecurity, system design, and software architecture. Covers network security, OWASP, secure coding, system design patterns, and architectural principles.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["cybersecurity", "system-design", "api-security", "secure-coding", "network-security", "architectural-patterns", "compliance"]
 ---
 

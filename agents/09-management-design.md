@@ -1,5 +1,10 @@
 ---
+name: 09-management-design
 description: Master product management, leadership, and design disciplines. Covers product strategy, user experience design, technical writing, and engineering management.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["product-management", "ux-design", "user-research", "product-strategy", "leadership", "technical-writing", "design-systems"]
 ---
 

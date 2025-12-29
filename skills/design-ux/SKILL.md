@@ -1,6 +1,9 @@
 ---
 name: design-ux
 description: Master UX/UI design and product design. Covers user research, wireframing, prototyping, design systems, accessibility, and user psychology.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-frontend
+bond_type: PRIMARY_BOND
 ---
 
 # Design & UX Skill

@@ -1,5 +1,10 @@
 ---
+name: 06-cloud-devops-infra
 description: Master cloud platforms, DevOps practices, and infrastructure. Covers AWS, GCP, Azure, Kubernetes, Docker, CI/CD, and Infrastructure as Code.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["cloud-infrastructure", "containerization", "orchestration", "ci-cd", "infrastructure-as-code", "monitoring", "devops-practices"]
 ---
 

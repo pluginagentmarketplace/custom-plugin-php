@@ -1,5 +1,10 @@
 ---
+name: 03-mobile-crossplatform
 description: Master mobile app development across iOS, Android, and cross-platform solutions. Covers Swift, Kotlin, React Native, Flutter, and native mobile architectures.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["ios-development", "android-development", "cross-platform-apps", "mobile-ui", "native-apis", "app-performance", "app-deployment"]
 ---
 

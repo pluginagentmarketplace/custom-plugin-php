@@ -1,5 +1,10 @@
 ---
+name: 05-ai-ml-mlops
 description: Master artificial intelligence, machine learning, and MLOps. Covers LLMs, deep learning, neural networks, model deployment, and production ML systems.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["machine-learning", "deep-learning", "llm-integration", "nlp", "computer-vision", "model-deployment", "ml-infrastructure"]
 ---
 

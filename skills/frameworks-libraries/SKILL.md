@@ -1,6 +1,9 @@
 ---
 name: frameworks-libraries
 description: Master modern frameworks and libraries. Covers React, Vue, Angular, Django, FastAPI, Spring Boot, Flutter, React Native, and more across all domains.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-frontend
+bond_type: PRIMARY_BOND
 ---
 
 # Frameworks & Libraries Skill

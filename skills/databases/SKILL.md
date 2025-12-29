@@ -1,6 +1,9 @@
 ---
 name: database-technologies
 description: Master SQL and NoSQL databases. Covers PostgreSQL, MySQL, MongoDB, Redis, Cassandra, Neo4j, Vector databases, and advanced database concepts.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-frontend
+bond_type: PRIMARY_BOND
 ---
 
 # Database Technologies Skill

@@ -1,5 +1,10 @@
 ---
+name: 08-specialized-tech
 description: Master specialized technologies including blockchain, game development, and advanced computing. Covers smart contracts, game engines, cryptography, and emerging technologies.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["blockchain-development", "smart-contracts", "game-development", "quantum-computing", "edge-computing", "emerging-tech"]
 ---
 

@@ -1,6 +1,9 @@
 ---
 name: cloud-platforms
 description: Master cloud infrastructure and services. Covers AWS, Google Cloud Platform, Microsoft Azure, Serverless, and cloud-native development.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-frontend
+bond_type: PRIMARY_BOND
 ---
 
 # Cloud Platforms Skill

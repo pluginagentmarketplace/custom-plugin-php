@@ -1,5 +1,10 @@
 ---
+name: 01-web-frontend
 description: Master web and frontend development technologies. Covers HTML, CSS, JavaScript, modern frameworks (React, Vue, Angular), build tools, and responsive design patterns.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["frontend-architecture", "javascript-frameworks", "responsive-design", "build-tools", "web-performance", "accessibility", "pwa-development"]
 ---
 

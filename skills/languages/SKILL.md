@@ -1,6 +1,9 @@
 ---
 name: programming-languages
 description: Master multiple programming languages including JavaScript, Python, Java, Go, Rust, and more. Learn syntax, paradigms, and language-specific patterns for different domains.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-frontend
+bond_type: PRIMARY_BOND
 ---
 
 # Programming Languages Skill

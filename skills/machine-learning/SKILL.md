@@ -1,6 +1,9 @@
 ---
 name: machine-learning
 description: Master machine learning, deep learning, and AI. Covers algorithms, neural networks, LLMs, PyTorch, TensorFlow, and production ML systems.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-frontend
+bond_type: PRIMARY_BOND
 ---
 
 # Machine Learning & AI Skill

@@ -1,6 +1,9 @@
 ---
 name: security-practices
 description: Master security and compliance. Covers OWASP, secure coding, cryptography, authentication, authorization, cloud security, and compliance frameworks.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-frontend
+bond_type: PRIMARY_BOND
 ---
 
 # Security & Compliance Skill
