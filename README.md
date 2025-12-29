@@ -1,413 +1,267 @@
-# Developer Roadmap Plugin for Claude Code
+<div align="center">
 
-🚀 **Ultimate developer learning platform with 65+ tech roles, 9 specialized agents, and comprehensive skills.**
+<!-- Animated Typing Banner -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Php+Assistant;9+Agents+%7C+10+Skills;Claude+Code+Plugin" alt="Php Assistant" />
 
-Master any tech career path with interactive roadmaps, AI-powered guidance, and curated learning resources.
+<br/>
 
-## 📊 Overview
+<!-- Badge Row 1: Status Badges -->
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-php/releases)
+[![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)](#)
+[![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
 
-| Metric | Value |
-|--------|-------|
-| **Roles** | 65+ |
-| **Agents** | 9 specialized |
-| **Skills** | 10 domains |
-| **Commands** | 4 slash commands |
-| **Learning Content** | 1000+ hours |
-| **Code Examples** | 500+ |
-| **Projects** | 100+ |
-| **Updated** | 2025 |
+<!-- Badge Row 2: Content Badges -->
+[![Agents](https://img.shields.io/badge/Agents-9-orange?style=flat-square&logo=robot)](#-agents)
+[![Skills](https://img.shields.io/badge/Skills-10-purple?style=flat-square&logo=lightning)](#-skills)
+[![Commands](https://img.shields.io/badge/Commands-4-green?style=flat-square&logo=terminal)](#-commands)
 
-## 🎯 Features
+<br/>
 
-### 9 Specialized Agents
-1. **Web & Frontend Development** - React, Vue, Angular, modern web
-2. **Backend & Server Development** - Node.js, Python, Java, Go, Rust
-3. **Mobile & Cross-Platform** - iOS, Android, Flutter, React Native
-4. **Data, Analytics & Engineering** - Data pipelines, analytics, science
-5. **AI, Machine Learning & MLOps** - LLMs, deep learning, production AI
-6. **Cloud, DevOps & Infrastructure** - AWS, Kubernetes, CI/CD
-7. **Security & Architecture** - Cybersecurity, system design
-8. **Specialized Technologies** - Blockchain, games, quantum
-9. **Management, Design & Leadership** - Product, UX, leadership
-
-### 10 Skill Domains
-- Programming Languages
-- Frameworks & Libraries
-- Database Technologies
-- Cloud Platforms
-- Machine Learning & AI
-- DevOps Tools
-- Testing & Quality Assurance
-- API Design
-- Security Practices
-- Design & UX
-
-### 4 Slash Commands
-- `/learn` - Start learning journey
-- `/browse-role` - Explore all roles
-- `/assess` - Evaluate your knowledge
-- `/roadmap` - Get detailed roadmaps
-
-## 🚀 Quick Start
-
-### Installation
-
-#### Option 1: From Local Directory
-```bash
-# Clone the repository
-git clone https://github.com/pluginagentmarketplace/developer-roadmap-plugin.git
-cd developer-roadmap-plugin
-
-# Load in Claude Code
-# File → Settings → Plugins → Add Plugin → ./
-```
-
-#### Option 2: From GitHub
-```bash
-# In Claude Code, add plugin from:
-https://github.com/pluginagentmarketplace/developer-roadmap-plugin
-```
-
-### First Steps
-
-1. **Start Learning**
-   ```
-   /learn
-   ```
-   Choose a role and get personalized learning path
-
-2. **Explore Roles**
-   ```
-   /browse-role
-   ```
-   Discover all 65+ available developer roles
-
-3. **Assess Your Skills**
-   ```
-   /assess
-   ```
-   Evaluate current knowledge and identify gaps
-
-4. **Get Detailed Roadmap**
-   ```
-   /roadmap Frontend Developer
-   ```
-   Get step-by-step learning plan for any role
-
-## 📚 Learning Paths
-
-### Most Popular Paths
-
-**Full-Stack Developer** (12-18 months)
-- Frontend Basics → React → Backend → Databases → DevOps
-
-**AI/ML Engineer** (12-24 months)
-- Python → ML Fundamentals → Deep Learning → LLMs → Production
-
-**DevOps/Cloud** (9-15 months)
-- Linux → Docker → Kubernetes → Cloud Platform → IaC
-
-**Data Engineer** (12-18 months)
-- SQL → Python → Big Data → ETL → Data Warehouse
-
-**Game Developer** (18-24 months)
-- C++ → Graphics → Game Engine → Multiplayer → Publishing
-
-## 🎓 Agent Descriptions
-
-### Agent 1: Web & Frontend Development
-- Frontend Developer, React, Vue, Angular
-- Web Performance, Accessibility, PWAs
-- Build beautiful, responsive web applications
-- **Key Skills**: HTML, CSS, JavaScript, Frameworks, Performance
-
-### Agent 2: Backend & Server Development
-- Backend Developer, Node.js, Python, Java, Go, Rust
-- API Design, Databases, Microservices
-- Build scalable, secure server applications
-- **Key Skills**: APIs, Databases, Authentication, Scalability
-
-### Agent 3: Mobile & Cross-Platform
-- iOS, Android, React Native, Flutter
-- Native and Cross-Platform Development
-- Build high-performance mobile apps
-- **Key Skills**: Swift, Kotlin, Dart, Mobile Architecture
-
-### Agent 4: Data, Analytics & Engineering
-- Data Engineer, Data Analyst, Data Scientist
-- ETL, Data Warehousing, Analytics
-- Process and analyze big data
-- **Key Skills**: SQL, Python, Big Data, Analytics
-
-### Agent 5: AI, Machine Learning & MLOps
-- AI Engineer, ML Engineer, MLOps, Deep Learning
-- LLMs, Neural Networks, Production ML
-- Build intelligent systems
-- **Key Skills**: Python, ML Frameworks, Deep Learning, LLMs
-
-### Agent 6: Cloud, DevOps & Infrastructure
-- DevOps, Cloud Architect, SRE, Platform Engineer
-- Kubernetes, Terraform, CI/CD
-- Build reliable, scalable infrastructure
-- **Key Skills**: Docker, Kubernetes, Cloud, IaC, Monitoring
-
-### Agent 7: Security & Architecture
-- Cybersecurity, System Design, Software Architect
-- OWASP, Secure Coding, System Design
-- Design secure, well-architected systems
-- **Key Skills**: Security, System Design, Cryptography, Compliance
-
-### Agent 8: Specialized Technologies
-- Blockchain, Game Development, Quantum Computing
-- Smart Contracts, Game Engines, Emerging Tech
-- Explore cutting-edge technologies
-- **Key Skills**: Solidity, Game Engines, Distributed Systems
-
-### Agent 9: Management, Design & Leadership
-- Product Manager, Engineering Manager, UX/UI Designer
-- Product Strategy, UX Research, Team Leadership
-- Lead products and teams
-- **Key Skills**: Strategy, UX, Leadership, Communication
-
-## 🛠️ Plugin Structure
-
-```
-developer-roadmap-plugin/
-├── .claude-plugin/
-│   └── plugin.json                    # Plugin manifest
-├── agents/                            # 9 agent markdown files
-│   ├── 01-web-frontend.md
-│   ├── 02-backend-servers.md
-│   ├── 03-mobile-crossplatform.md
-│   ├── 04-data-analytics.md
-│   ├── 05-ai-ml-mlops.md
-│   ├── 06-cloud-devops-infra.md
-│   ├── 07-security-architecture.md
-│   ├── 08-specialized-tech.md
-│   └── 09-management-design.md
-├── commands/                          # 4 slash commands
-│   ├── learn.md
-│   ├── browse-role.md
-│   ├── assess.md
-│   └── roadmap.md
-├── skills/                            # 10 skill domains
-│   ├── languages/
-│   ├── frameworks-libraries/
-│   ├── databases/
-│   ├── cloud-platforms/
-│   ├── machine-learning/
-│   ├── devops-tools/
-│   ├── testing-quality/
-│   ├── api-design/
-│   ├── security-practices/
-│   └── design-ux/
-├── hooks/
-│   └── hooks.json                     # Automation & tracking
-├── README.md                          # This file
-├── ARCHITECTURE.md                    # Technical details
-└── LICENSE
-```
-
-## 📖 How It Works
-
-### 1. Interactive Learning
-- Start with `/learn` to choose a path
-- Follow personalized roadmap
-- Track progress automatically
-- Get recommendations based on performance
-
-### 2. Agent Guidance
-- Each domain has specialized agent
-- Expert guidance for your chosen path
-- Up-to-date with 2025 technologies
-- Best practices and patterns
-
-### 3. Skill Development
-- 10 comprehensive skill domains
-- From basics to advanced topics
-- Hands-on projects
-- Real-world applications
-
-### 4. Assessment & Progress
-- Use `/assess` to test knowledge
-- Identify skill gaps
-- Get personalized recommendations
-- Track improvement over time
-
-## 📊 Stats
-
-### Content Coverage
-- **65+ Developer Roles** covered comprehensively
-- **2500+ Topics** across all domains
-- **500+ Code Examples** for reference
-- **100+ Real-world Projects** to build
-- **1000+ Hours** of learning material
-
-### Technology Coverage (2025)
-- Latest frameworks and tools
-- Modern best practices
-- Current industry standards
-- Emerging technologies
-- Real-world patterns
-
-## 🎯 Use Cases
-
-### For Beginners
-- Start from scratch with fundamentals
-- Follow step-by-step learning paths
-- Build progressively complex projects
-- Get clear explanations of concepts
-
-### For Career Changers
-- Understand different tech paths
-- Get accelerated learning plans
-- See connections between technologies
-- Plan career transitions
-
-### For Career Growth
-- Explore specializations and advanced topics
-- Learn complementary skills
-- Prepare for promotions
-- Stay updated with latest tech
-
-### For Teams
-- Share learning paths with team
-- Track team progress
-- Identify skill gaps
-- Plan training programs
-
-## ⚙️ Configuration
-
-### Available Settings
-- Learning pace (slow, normal, fast)
-- Difficulty level (beginner, intermediate, advanced)
-- Language (English, more coming)
-- Notifications (on/off)
-
-### Customization
-- Skip known topics
-- Adjust roadmap pacing
-- Choose learning resources
-- Set personal goals
-
-## 📚 Learning Resources Included
-
-### Free Resources
-- YouTube channels
-- Official documentation
-- Community forums
-- Open-source projects
-
-### Paid Resources
-- Online courses
-- Books and guides
-- Premium tutorials
-- Bootcamp recommendations
-
-### Interactive Resources
-- Code playgrounds
-- Coding challenges
-- Project templates
-- Community forums
-
-## 🤝 Contributing
-
-We welcome contributions!
-
-### How to Contribute
-1. Fork the repository
-2. Create a feature branch
-3. Make improvements
-4. Submit a pull request
-
-### Areas for Contribution
-- Add new roles and roadmaps
-- Improve existing content
-- Add projects and examples
-- Enhance documentation
-- Fix typos and errors
-
-## 📄 License
-
-MIT License - See LICENSE file for details
-
-## 🔗 Links
-
-- **GitHub**: https://github.com/pluginagentmarketplace/developer-roadmap-plugin
-- **Original Roadmap**: https://roadmap.sh/
-- **Claude Code Docs**: https://docs.claude.com/
-
-## 📞 Support
-
-### Getting Help
-- Ask Claude directly about any topic
-- Use `/assess` to find knowledge gaps
-- Check agent descriptions for guidance
-- Explore `/browse-role` for alternatives
-
-### Feedback
-- Report issues on GitHub
-- Suggest improvements
-- Share your learning journey
-- Contribute ideas
-
-## 🌟 Features Roadmap
-
-### Upcoming (Q1 2025)
-- [ ] Salary information by role
-- [ ] Job market analysis
-- [ ] Networking groups
-- [ ] Mentorship matching
-
-### Planned (Q2 2025)
-- [ ] Video course integration
-- [ ] Live coding sessions
-- [ ] Certification tracks
-- [ ] Multi-language support
-
-### Future
-- [ ] AI-powered personalization
-- [ ] Real-time job market insights
-- [ ] Community projects
-- [ ] Hackathon challenges
-
-## 💡 Tips for Success
-
-1. **Be Consistent** - Learn daily, even 30 minutes
-2. **Build Projects** - Apply your learning
-3. **Join Communities** - Network with others
-4. **Read Others' Code** - See different approaches
-5. **Teach Others** - Deepen your understanding
-6. **Stay Updated** - Tech evolves quickly
-7. **Take Breaks** - Avoid burnout
-8. **Celebrate Wins** - Acknowledge progress
-
-## 📈 Track Your Progress
-
-### Metrics to Watch
-- Hours invested
-- Concepts mastered
-- Projects completed
-- Code quality improving
-- Problem-solving speed
-- Confidence level
-
-## 🎓 Certification & Badges
-
-Earn badges for:
-- Completing skill units
-- Building projects
-- Passing assessments
-- Reaching milestones
-- Helping others
-- Contributing
+<!-- Quick CTA Row -->
+[📦 **Install Now**](#-quick-start) · [🤖 **Explore Agents**](#-agents) · [📖 **Documentation**](#-documentation) · [⭐ **Star this repo**](https://github.com/pluginagentmarketplace/custom-plugin-php)
 
 ---
 
-**Ready to start your learning journey?**
+### What is this?
+
+> **Php Assistant** is a Claude Code plugin with **9 agents** and **10 skills** for php development.
+
+</div>
+
+---
+
+## 📑 Table of Contents
+
+<details>
+<summary>Click to expand</summary>
+
+- [Quick Start](#-quick-start)
+- [Features](#-features)
+- [Agents](#-agents)
+- [Skills](#-skills)
+- [Commands](#-commands)
+- [Documentation](#-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+</details>
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Claude Code CLI v2.0.27+
+- Active Claude subscription
+
+### Installation (Choose One)
+
+<details open>
+<summary><strong>Option 1: From Marketplace (Recommended)</strong></summary>
+
+```bash
+# Step 1️⃣ Add the marketplace
+/plugin add marketplace pluginagentmarketplace/custom-plugin-php
+
+# Step 2️⃣ Install the plugin
+/plugin install php-assistant@pluginagentmarketplace-php
+
+# Step 3️⃣ Restart Claude Code
+# Close and reopen your terminal/IDE
+```
+
+</details>
+
+<details>
+<summary><strong>Option 2: Local Installation</strong></summary>
+
+```bash
+# Clone the repository
+git clone https://github.com/pluginagentmarketplace/custom-plugin-php.git
+cd custom-plugin-php
+
+# Load locally
+/plugin load .
+
+# Restart Claude Code
+```
+
+</details>
+
+### ✅ Verify Installation
+
+After restart, you should see these agents:
 
 ```
-/learn
+php-assistant:09-management-design
+php-assistant:04-data-analytics
+php-assistant:05-ai-ml-mlops
+php-assistant:02-backend-servers
+php-assistant:08-specialized-tech
+... and 4 more
 ```
 
-Choose a role and begin your path to mastery! 🚀
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---------|-------------|
+| 🤖 **9 Agents** | Specialized AI agents for php tasks |
+| 🛠️ **10 Skills** | Reusable capabilities with Golden Format |
+| ⌨️ **4 Commands** | Quick slash commands |
+| 🔄 **SASMP v1.3.0** | Full protocol compliance |
+
+---
+
+## 🤖 Agents
+
+### 9 Specialized Agents
+
+| # | Agent | Purpose |
+|---|-------|---------|
+| 1 | **09-management-design** | Master product management, leadership, and design discipline |
+| 2 | **04-data-analytics** | Master data engineering, analytics, and data science. Covers |
+| 3 | **05-ai-ml-mlops** | Master artificial intelligence, machine learning, and MLOps. |
+| 4 | **02-backend-servers** | Master server-side development with multiple languages and f |
+| 5 | **08-specialized-tech** | Master specialized technologies including blockchain, game d |
+| 6 | **03-mobile-crossplatform** | Master mobile app development across iOS, Android, and cross |
+| 7 | **07-security-architecture** | Master cybersecurity, system design, and software architectu |
+| 8 | **06-cloud-devops-infra** | Master cloud platforms, DevOps practices, and infrastructure |
+| 9 | **01-web-frontend** | Master web and frontend development technologies. Covers HTM |
+
+---
+
+## 🛠️ Skills
+
+### Available Skills
+
+| Skill | Description | Invoke |
+|-------|-------------|--------|
+| `databases` | Master SQL and NoSQL databases. Covers PostgreSQL, MySQL, Mo | `Skill("php-assistant:databases")` |
+| `security-practices` | Master security and compliance. Covers OWASP, secure coding, | `Skill("php-assistant:security-practices")` |
+| `devops-tools` | Master DevOps tools and practices. Covers Docker, Kubernetes | `Skill("php-assistant:devops-tools")` |
+| `cloud-platforms` | Master cloud infrastructure and services. Covers AWS, Google | `Skill("php-assistant:cloud-platforms")` |
+| `api-design` | Master API design and development. Covers REST, GraphQL, gRP | `Skill("php-assistant:api-design")` |
+| `languages` | Master multiple programming languages including JavaScript,  | `Skill("php-assistant:languages")` |
+| `testing-quality` | Master testing strategies and quality assurance. Covers unit | `Skill("php-assistant:testing-quality")` |
+| `design-ux` | Master UX/UI design and product design. Covers user research | `Skill("php-assistant:design-ux")` |
+| `frameworks-libraries` | Master modern frameworks and libraries. Covers React, Vue, A | `Skill("php-assistant:frameworks-libraries")` |
+| `machine-learning` | Master machine learning, deep learning, and AI. Covers algor | `Skill("php-assistant:machine-learning")` |
+
+---
+
+## ⌨️ Commands
+
+| Command | Description |
+|---------|-------------|
+| `/learn` | /learn |
+| `/assess` | /assess |
+| `/browse-role` | role |
+| `/roadmap` | /roadmap |
+
+---
+
+## 📚 Documentation
+
+| Document | Description |
+|----------|-------------|
+| [CHANGELOG.md](CHANGELOG.md) | Version history |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
+| [LICENSE](LICENSE) | License information |
+
+---
+
+## 📁 Project Structure
+
+<details>
+<summary>Click to expand</summary>
+
+```
+custom-plugin-php/
+├── 📁 .claude-plugin/
+│   ├── plugin.json
+│   └── marketplace.json
+├── 📁 agents/              # 9 agents
+├── 📁 skills/              # 10 skills (Golden Format)
+├── 📁 commands/            # 4 commands
+├── 📁 hooks/
+├── 📄 README.md
+├── 📄 CHANGELOG.md
+└── 📄 LICENSE
+```
+
+</details>
+
+---
+
+## 📅 Metadata
+
+| Field | Value |
+|-------|-------|
+| **Version** | 1.0.0 |
+| **Last Updated** | 2025-12-29 |
+| **Status** | Production Ready |
+| **SASMP** | v1.3.0 |
+| **Agents** | 9 |
+| **Skills** | 10 |
+| **Commands** | 4 |
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
+
+1. Fork the repository
+2. Create your feature branch
+3. Follow the Golden Format for new skills
+4. Submit a pull request
+
+---
+
+## ⚠️ Security
+
+> **Important:** This repository contains third-party code and dependencies.
+>
+> - ✅ Always review code before using in production
+> - ✅ Check dependencies for known vulnerabilities
+> - ✅ Follow security best practices
+> - ✅ Report security issues privately via [Issues](../../issues)
+
+---
+
+## 📝 License
+
+Copyright © 2025 **Dr. Umit Kacar** & **Muhsin Elcicek**
+
+Custom License - See [LICENSE](LICENSE) for details.
+
+---
+
+## 👥 Contributors
+
+<table>
+<tr>
+<td align="center">
+<strong>Dr. Umit Kacar</strong><br/>
+Senior AI Researcher & Engineer
+</td>
+<td align="center">
+<strong>Muhsin Elcicek</strong><br/>
+Senior Software Architect
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+**Made with ❤️ for the Claude Code Community**
+
+[![GitHub](https://img.shields.io/badge/GitHub-pluginagentmarketplace-black?style=for-the-badge&logo=github)](https://github.com/pluginagentmarketplace)
+
+</div>

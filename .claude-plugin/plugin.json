@@ -1,9 +1,9 @@
 {
-  "name": "Developer Roadmap Plugin",
+  "name": "php-assistant",
   "version": "1.0.0",
   "description": "Ultimate developer learning platform with 65+ tech roles, 9 specialized agents, and comprehensive skills. Master any tech career path with interactive roadmaps and curated learning resources.",
   "author": "pluginagentmarketplace",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "keywords": [
     "developer-roadmap",
     "learning",
@@ -22,55 +22,108 @@
       "id": "web-frontend-agent",
       "name": "Web & Frontend Development",
       "file": "agents/01-web-frontend.md",
-      "capabilities": ["frontend-architecture", "javascript-frameworks", "responsive-design", "build-tools", "web-performance"]
+      "capabilities": [
+        "frontend-architecture",
+        "javascript-frameworks",
+        "responsive-design",
+        "build-tools",
+        "web-performance"
+      ]
     },
     {
       "id": "backend-servers-agent",
       "name": "Backend & Server Development",
       "file": "agents/02-backend-servers.md",
-      "capabilities": ["backend-architecture", "api-design", "database-design", "authentication", "scalability"]
+      "capabilities": [
+        "backend-architecture",
+        "api-design",
+        "database-design",
+        "authentication",
+        "scalability"
+      ]
     },
     {
       "id": "mobile-crossplatform-agent",
       "name": "Mobile & Cross-Platform",
       "file": "agents/03-mobile-crossplatform.md",
-      "capabilities": ["ios-development", "android-development", "cross-platform-apps", "native-apis", "app-performance"]
+      "capabilities": [
+        "ios-development",
+        "android-development",
+        "cross-platform-apps",
+        "native-apis",
+        "app-performance"
+      ]
     },
     {
       "id": "data-analytics-agent",
       "name": "Data, Analytics & Engineering",
       "file": "agents/04-data-analytics.md",
-      "capabilities": ["data-engineering", "big-data", "data-analytics", "etl-pipelines", "database-design"]
+      "capabilities": [
+        "data-engineering",
+        "big-data",
+        "data-analytics",
+        "etl-pipelines",
+        "database-design"
+      ]
     },
     {
       "id": "ai-ml-mlops-agent",
       "name": "AI, Machine Learning & MLOps",
       "file": "agents/05-ai-ml-mlops.md",
-      "capabilities": ["machine-learning", "deep-learning", "llm-integration", "nlp", "model-deployment"]
+      "capabilities": [
+        "machine-learning",
+        "deep-learning",
+        "llm-integration",
+        "nlp",
+        "model-deployment"
+      ]
     },
     {
       "id": "cloud-devops-infra-agent",
       "name": "Cloud, DevOps & Infrastructure",
       "file": "agents/06-cloud-devops-infra.md",
-      "capabilities": ["cloud-infrastructure", "containerization", "orchestration", "ci-cd", "infrastructure-as-code"]
+      "capabilities": [
+        "cloud-infrastructure",
+        "containerization",
+        "orchestration",
+        "ci-cd",
+        "infrastructure-as-code"
+      ]
     },
     {
       "id": "security-architecture-agent",
       "name": "Security & Architecture",
       "file": "agents/07-security-architecture.md",
-      "capabilities": ["cybersecurity", "system-design", "api-security", "secure-coding", "architectural-patterns"]
+      "capabilities": [
+        "cybersecurity",
+        "system-design",
+        "api-security",
+        "secure-coding",
+        "architectural-patterns"
+      ]
     },
     {
       "id": "specialized-tech-agent",
       "name": "Specialized Technologies",
       "file": "agents/08-specialized-tech.md",
-      "capabilities": ["blockchain-development", "smart-contracts", "game-development", "quantum-computing"]
+      "capabilities": [
+        "blockchain-development",
+        "smart-contracts",
+        "game-development",
+        "quantum-computing"
+      ]
     },
     {
       "id": "management-design-agent",
       "name": "Management, Design & Leadership",
       "file": "agents/09-management-design.md",
-      "capabilities": ["product-management", "ux-design", "user-research", "product-strategy", "leadership"]
+      "capabilities": [
+        "product-management",
+        "ux-design",
+        "user-research",
+        "product-strategy",
+        "leadership"
+      ]
     }
   ],
   "commands": [

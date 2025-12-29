@@ -1,7 +1,6 @@
 # Specialized and Emerging Role Roadmaps Analysis
 ## Part 3: Developer Roadmap Repository Analysis
 
-Source: https://github.com/kamranahmedse/developer-roadmap
 Repository Stats: 224K+ GitHub stars, 2.1M+ registered users, 70+ interactive roadmaps
 
 ---
@@ -673,7 +672,6 @@ Step-by-step guide to becoming a UX Designer in 2025. Emphasizes the connection 
 
 ## REPOSITORY INFORMATION
 
-**Source:** https://github.com/kamranahmedse/developer-roadmap
 **Repository by:** Kamran Ahmed
 **Stats:** 224K+ GitHub stars (6th most starred project), 2.1M+ users, 42K Discord members
 **Total Roadmaps:** 70+ interactive roadmaps

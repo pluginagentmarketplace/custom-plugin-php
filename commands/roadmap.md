@@ -1,3 +1,9 @@
+---
+name: roadmap
+description: /roadmap
+allowed-tools: Read
+---
+
 # /roadmap
 
 Get detailed learning roadmaps for any developer role.

@@ -1,0 +1,15 @@
+{
+  "name": "pluginagentmarketplace-php",
+  "owner": {
+    "name": "Plugin Agent Marketplace",
+    "email": "pluginagentmarketplace@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "php-assistant",
+      "source": "./",
+      "description": "Claude Code plugin for php development",
+      "version": "1.0.0"
+    }
+  ]
+}

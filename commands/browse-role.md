@@ -1,3 +1,9 @@
+---
+name: browse-role
+description: role
+allowed-tools: Read
+---
+
 # /browse-role
 
 Explore all 65+ developer roles and specializations.
