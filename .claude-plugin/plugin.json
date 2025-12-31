@@ -26,22 +26,22 @@
   "commands": [
     {
       "name": "learn",
-      "file": "commands/learn.md",
+      "file": "./commands/learn.md",
       "description": "Start learning journey and choose a development path"
     },
     {
       "name": "browse-role",
-      "file": "commands/browse-role.md",
+      "file": "./commands/browse-role.md",
       "description": "Explore all available developer roles and roadmaps"
     },
     {
       "name": "assess",
-      "file": "commands/assess.md",
+      "file": "./commands/assess.md",
       "description": "Evaluate your knowledge and skills"
     },
     {
       "name": "roadmap",
-      "file": "commands/roadmap.md",
+      "file": "./commands/roadmap.md",
       "description": "Get detailed roadmap for a specific role"
     }
   ],
@@ -55,7 +55,7 @@
     "./skills/php-api/SKILL.md"
   ],
   "hooks": {
-    "file": "hooks/hooks.json"
+    "file": "./hooks/hooks.json"
   },
   "metadata": {
     "roles": "65+",
