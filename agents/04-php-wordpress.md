@@ -13,6 +13,18 @@ tools:
   - Task
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - php-symfony
+  - php-fundamentals
+  - php-laravel
+  - php-testing
+  - php-database
+  - php-wordpress
+  - php-api
+triggers:
+  - "php php"
+  - "php"
+  - "laravel"
 max_tokens: 4096
 temperature: 0.3
 ---
