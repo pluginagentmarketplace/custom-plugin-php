@@ -13,10 +13,7 @@
     "education",
     "ai-powered-learning"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pluginagentmarketplace/developer-roadmap-plugin"
-  },
+  "repository": "https://github.com/pluginagentmarketplace/developer-roadmap-plugin",
   "agents": [
     "./agents/01-php-fundamentals.md",
     "./agents/02-php-laravel.md",
