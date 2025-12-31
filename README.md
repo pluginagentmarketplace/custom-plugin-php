@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Typing Banner -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Php+Assistant;9+Agents+%7C+10+Skills;Claude+Code+Plugin" alt="Php Assistant" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Php+Assistant;7+Agents+%7C+7+Skills;Claude+Code+Plugin" alt="Php Assistant" />
 
 <br/>
 
@@ -12,8 +12,8 @@
 [![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
 
 <!-- Badge Row 2: Content Badges -->
-[![Agents](https://img.shields.io/badge/Agents-9-orange?style=flat-square&logo=robot)](#-agents)
-[![Skills](https://img.shields.io/badge/Skills-10-purple?style=flat-square&logo=lightning)](#-skills)
+[![Agents](https://img.shields.io/badge/Agents-7-orange?style=flat-square&logo=robot)](#-agents)
+[![Skills](https://img.shields.io/badge/Skills-7-purple?style=flat-square&logo=lightning)](#-skills)
 [![Commands](https://img.shields.io/badge/Commands-4-green?style=flat-square&logo=terminal)](#-commands)
 
 <br/>
@@ -25,7 +25,7 @@
 
 ### What is this?
 
-> **Php Assistant** is a Claude Code plugin with **9 agents** and **10 skills** for php development.
+> **Php Assistant** is a Claude Code plugin with **7 agents** and **7 skills** for php development.
 
 </div>
 
@@ -109,8 +109,8 @@ php-assistant:08-specialized-tech
 
 | Feature | Description |
 |---------|-------------|
-| 🤖 **9 Agents** | Specialized AI agents for php tasks |
-| 🛠️ **10 Skills** | Reusable capabilities with Golden Format |
+| 🤖 **7 Agents** | Specialized AI agents for php tasks |
+| 🛠️ **7 Skills** | Reusable capabilities with Golden Format |
 | ⌨️ **4 Commands** | Quick slash commands |
 | 🔄 **SASMP v1.3.0** | Full protocol compliance |
 
@@ -118,7 +118,7 @@ php-assistant:08-specialized-tech
 
 ## 🤖 Agents
 
-### 9 Specialized Agents
+### 7 Specialized Agents
 
 | # | Agent | Purpose |
 |---|-------|---------|
@@ -184,8 +184,8 @@ custom-plugin-php/
 ├── 📁 .claude-plugin/
 │   ├── plugin.json
 │   └── marketplace.json
-├── 📁 agents/              # 9 agents
-├── 📁 skills/              # 10 skills (Golden Format)
+├── 📁 agents/              # 7 agents
+├── 📁 skills/              # 7 skills (Golden Format)
 ├── 📁 commands/            # 4 commands
 ├── 📁 hooks/
 ├── 📄 README.md
@@ -205,8 +205,8 @@ custom-plugin-php/
 | **Last Updated** | 2025-12-29 |
 | **Status** | Production Ready |
 | **SASMP** | v1.3.0 |
-| **Agents** | 9 |
-| **Skills** | 10 |
+| **Agents** | 7 |
+| **Skills** | 7 |
 | **Commands** | 4 |
 
 ---
