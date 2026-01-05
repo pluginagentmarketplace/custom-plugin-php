@@ -54,9 +54,6 @@
     "./skills/php-testing/SKILL.md",
     "./skills/php-api/SKILL.md"
   ],
-  "hooks": {
-    "file": "./hooks/hooks.json"
-  },
   "metadata": {
     "roles": "65+",
     "learning_paths": "9 specialized agents",

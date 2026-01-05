@@ -63,7 +63,7 @@
 
 ```bash
 # Step 1️⃣ Add the marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-php
+/plugin marketplace add pluginagentmarketplace/custom-plugin-php
 
 # Step 2️⃣ Install the plugin
 /plugin install php-assistant@pluginagentmarketplace-php
